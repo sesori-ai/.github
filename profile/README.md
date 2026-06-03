@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/sesori-logo.webp" alt="Sesori" width="120" />
+  <img src="./assets/sesori-logo.png" alt="Sesori" width="160" />
 </p>
 
 <h1 align="center">Sesori</h1>
