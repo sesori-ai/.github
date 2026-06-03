@@ -5,11 +5,13 @@
 <h1 align="center">Sesori</h1>
 
 <p align="center">
-  <strong>The mobile client for <a href="https://opencode.ai">OpenCode</a>.</strong><br/>
+  <strong>The open-source mobile client for <a href="https://opencode.ai">OpenCode</a>.</strong><br/>
   Run OpenCode from your phone.
 </p>
 
 <p align="center">
+  <a href="https://github.com/sesori-ai"><img src="https://img.shields.io/badge/Open_Source-%E2%9D%A4-brightgreen?logo=github&logoColor=white" alt="Open source"/></a>
+  <a href="https://github.com/sesori-ai/sesori_relay_server/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue" alt="Apache 2.0"/></a>
   <a href="https://apps.apple.com/app/sesori/id6760642500"><img src="https://img.shields.io/badge/App_Store-iOS-blue?logo=apple" alt="iOS"/></a>
   <a href="https://play.google.com/store/apps/details?id=com.sesori.app"><img src="https://img.shields.io/badge/Google_Play-Android-green?logo=googleplay" alt="Android"/></a>
   <a href="https://docs.sesori.com"><img src="https://img.shields.io/badge/Docs-docs.sesori.com-purple" alt="Docs"/></a>
@@ -35,9 +37,9 @@
 
 ## What is Sesori?
 
-**Sesori is a mobile client for [OpenCode](https://opencode.ai/docs/).** It lets you drive real OpenCode AI coding sessions from your iPhone or Android while the actual work runs on your laptop or desktop.
+**Sesori is the open-source mobile client for [OpenCode](https://opencode.ai/docs/).** It lets you drive real OpenCode AI coding sessions from your iPhone or Android while the actual work runs on your laptop or desktop.
 
-OpenCode is the AI coding engine. Sesori is the cockpit on your phone.
+OpenCode is the AI coding engine. Sesori is the cockpit on your phone — built in the open, end-to-end encrypted, and local-first.
 
 If you've searched for **OpenCode mobile**, **OpenCode iOS**, **OpenCode Android**, **OpenCode remote control**, **mobile AI coding**, or **AI coding from your phone** — that's what Sesori is built for.
 
@@ -177,15 +179,13 @@ Enable **workspaces** in the OpenCode web interface so both surfaces share the s
 
 ## Open Source
 
-The pieces that make OpenCode mobile work are public:
+**Sesori is open source.** Every piece that makes OpenCode mobile work is public — the app, the Bridge, the relay, the auth server. Audit the crypto, run it yourself, send PRs.
 
-| Repo | What it is | Stack |
-|---|---|---|
-| [**sesori_apps_monorepo**](https://github.com/sesori-ai/sesori_apps_monorepo) | The Sesori iOS/Android app and the Bridge CLI | Dart / Flutter |
-| [**sesori_relay_server**](https://github.com/sesori-ai/sesori_relay_server) | End-to-end encrypted relay between phone and Bridge | Go |
-| [**sesori_auth_server**](https://github.com/sesori-ai/sesori_auth_server) | Sign-in (GitHub, Google, Apple, email) and token issuance | TypeScript |
-
-The Bridge is open source and will stay that way. Audit the crypto, run it yourself, send PRs.
+| Repo | What it is | Stack | License |
+|---|---|---|---|
+| [**sesori_apps_monorepo**](https://github.com/sesori-ai/sesori_apps_monorepo) | The Sesori iOS/Android app and the Bridge CLI | Dart / Flutter | [FSL-1.1-ALv2](https://github.com/sesori-ai/sesori_apps_monorepo/blob/main/LICENSE) (converts to Apache-2.0 after 2 years) |
+| [**sesori_relay_server**](https://github.com/sesori-ai/sesori_relay_server) | End-to-end encrypted relay between phone and Bridge | Go | [Apache-2.0](https://github.com/sesori-ai/sesori_relay_server/blob/main/LICENSE) |
+| [**sesori_auth_server**](https://github.com/sesori-ai/sesori_auth_server) | Sign-in (GitHub, Google, Apple, email) and token issuance | TypeScript | [Apache-2.0](https://github.com/sesori-ai/sesori_auth_server/blob/main/LICENSE) |
 
 ---
 
