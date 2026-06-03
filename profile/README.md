@@ -199,8 +199,6 @@ Enable **workspaces** in the OpenCode web interface so both surfaces share the s
 - 📝 [Blog](https://sesori.com/blog)
 - 📦 [Releases & changelog](https://github.com/sesori-ai/sesori_apps_monorepo/releases)
 
-**Security issue?** Don't open a public issue — email **hello@sesori.com**.
-
 ---
 
 <p align="center">
