@@ -5,8 +5,8 @@
 <h1 align="center">Sesori</h1>
 
 <p align="center">
-  <strong>The open-source mobile client for <a href="https://opencode.ai">OpenCode</a>.</strong><br/>
-  Run OpenCode from your phone.
+  <strong>The open-source mobile client for your AI coding agent.</strong><br/>
+  Works with <a href="https://opencode.ai/docs/">OpenCode</a>, <a href="https://developers.openai.com/codex/">Codex</a>, and <a href="https://cursor.com/docs/cli/overview">Cursor</a> — with more on the way.
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@
 
 <p align="center">
   <img src="./assets/phone-projects.webp" alt="Sesori project browser on iPhone" width="240"/>
-  <img src="./assets/phone-chat.webp" alt="Sesori OpenCode chat on iPhone" width="240"/>
+  <img src="./assets/phone-chat.webp" alt="Sesori AI coding agent chat on iPhone" width="240"/>
   <img src="./assets/phone-sessions.webp" alt="Sesori session list on iPhone" width="240"/>
 </p>
 
@@ -37,23 +37,26 @@
 
 ## What is Sesori?
 
-**Sesori is the open-source mobile client for [OpenCode](https://opencode.ai/docs/).** It lets you drive real OpenCode AI coding sessions from your iPhone or Android while the actual work runs on your laptop or desktop.
+**Sesori is the open-source mobile client for your AI coding agent.** It lets you drive real AI coding sessions from your iPhone or Android while the actual work runs on your laptop or desktop.
 
-OpenCode is the AI coding engine. Sesori is the cockpit on your phone — built in the open, end-to-end encrypted, and local-first.
+Sesori works with **[OpenCode](https://opencode.ai/docs/)**, **[Codex](https://developers.openai.com/codex/)**, and **[Cursor](https://cursor.com/docs/cli/overview)** today, and more agents are on the way. Install whichever you prefer — the Sesori Bridge detects what's on your machine.
 
-If you've searched for **OpenCode mobile**, **OpenCode iOS**, **OpenCode Android**, **OpenCode remote control**, **mobile AI coding**, or **AI coding from your phone** — that's what Sesori is built for.
+Your agent is the engine. Sesori is the cockpit on your phone — built in the open, end-to-end encrypted, and local-first.
+
+If you've searched for **OpenCode mobile**, **OpenCode iOS**, **OpenCode Android**, **OpenCode remote control**, **Codex mobile**, **Codex CLI from your phone**, **Cursor mobile**, **Cursor agent remote control**, **mobile AI coding**, or **AI coding from your phone** — that's what Sesori is built for.
 
 ---
 
 ## What you can do with Sesori
 
-- **Run OpenCode from your phone** — full session control over a real OpenCode server on your machine.
+- **Run your coding agent from your phone** — full session control over a real agent on your machine.
+- **Use the agent you prefer** — OpenCode, Codex, or Cursor, through one app.
 - **Manage long-running agents** — leave the laptop, take the session with you.
 - **Review file diffs & commit to GitHub** straight from the app.
 - **Code with your voice** — speak prompts, answer permission requests, guide the agent hands-free.
 - **Run multiple sessions in parallel** per project, each in its own context.
 - **Get push notifications** the moment your agent finishes or needs you back.
-- **Pick your model and agent** — anything OpenCode exposes (Claude, GPT, Gemini, KimiCode, OpenCode Go, …).
+- **Pick your model and agent** — whatever your assistant exposes (Claude, GPT, Gemini, KimiCode, OpenCode Go, …).
 - **Local-first & end-to-end encrypted** — your code never leaves your machine. The relay sees only opaque binary.
 
 Available now on **iOS** and **Android**. Desktop apps (macOS, Linux, Windows) coming soon.
@@ -62,29 +65,63 @@ Available now on **iOS** and **Android**. Desktop apps (macOS, Linux, Windows) c
 
 ## Quickstart
 
-Connect your phone to OpenCode in a few minutes.
+Connect your phone to your coding agent in a few minutes.
 
-### 1. Install OpenCode
+### 1. Install an AI coding agent
 
-OpenCode is the AI coding engine Sesori connects to. Install it on your laptop or desktop:
+You only need one. Pick whichever you prefer — you can install more than one and the Bridge will detect them all.
+
+<details>
+<summary><strong>OpenCode</strong></summary>
 
 ```bash
 curl -fsSL https://opencode.ai/install | bash
+opencode auth login
 ```
 
 > **On Windows, use WSL.** Install OpenCode inside your WSL terminal, then run the rest of the setup — including `sesori-bridge` — from that same WSL terminal.
 
-### 2. Connect your AI provider
+OpenCode supports GPT subscriptions, Anthropic API, Google Gemini, KimiCode, OpenCode Go, and more.
+
+</details>
+
+<details>
+<summary><strong>Codex</strong></summary>
 
 ```bash
-opencode auth login
+curl -fsSL https://chatgpt.com/codex/install.sh | sh
+codex login
 ```
 
-OpenCode supports Codex/GPT subscriptions, Anthropic API, Google Gemini, KimiCode, OpenCode Go, and more.
+On Windows, Codex installs natively — WSL is not required:
 
-### 3. Install the Sesori Bridge
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"
+```
 
-The **Sesori Bridge** is a small command-line tool that connects the Sesori app to OpenCode.
+</details>
+
+<details>
+<summary><strong>Cursor</strong></summary>
+
+```bash
+curl https://cursor.com/install -fsS | bash
+cursor-agent login
+```
+
+On Windows:
+
+```powershell
+irm 'https://cursor.com/install?win32=true' | iex
+```
+
+> **Cursor must be signed in** before the Bridge can use it. Check with `cursor-agent status`.
+
+</details>
+
+### 2. Install the Sesori Bridge
+
+The **Sesori Bridge** is a small command-line tool that connects the Sesori app to your agent.
 
 **macOS / Linux** (and Windows WSL — recommended path):
 
@@ -92,7 +129,7 @@ The **Sesori Bridge** is a small command-line tool that connects the Sesori app 
 curl -fsSL https://sesori.com/install.sh | bash
 ```
 
-**Windows (native PowerShell)** — use this only if you're running OpenCode natively on Windows rather than in WSL:
+**Windows (native PowerShell)** — use this if you're running your agent natively on Windows rather than in WSL:
 
 ```powershell
 irm https://sesori.com/install.ps1 | iex
@@ -104,20 +141,26 @@ irm https://sesori.com/install.ps1 | iex
 > $env:Path = [Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [Environment]::GetEnvironmentVariable("Path","User")
 > ```
 
-### 4. Run the Bridge
+### 3. Run the Bridge
 
 ```bash
 sesori-bridge
 ```
 
-Sign in with **GitHub** when prompted. The Bridge starts (or attaches to) a local OpenCode server and registers with the Sesori relay. Keep the terminal window open — your phone can only connect while the Bridge is running.
+Pick a sign-in method when prompted — **GitHub** is recommended. The Bridge detects your installed agents, starts (or attaches to) the one you're using, and registers with the Sesori relay. Keep the terminal window open — your phone can only connect while the Bridge is running.
 
-### 5. Install the Sesori app & sign in
+To see which agents the Bridge found:
+
+```bash
+sesori-bridge config plugins
+```
+
+### 4. Install the Sesori app & sign in
 
 - 📱 **iOS** → [App Store](https://apps.apple.com/app/sesori/id6760642500)
 - 📱 **Android** → [Google Play](https://play.google.com/store/apps/details?id=com.sesori.app)
 
-Sign in with the same GitHub account you used for the Bridge. You're connected.
+Sign in with the same account and method you used for the Bridge. You're connected.
 
 Full walkthrough → **[docs.sesori.com/quickstart](https://docs.sesori.com/quickstart)**
 
@@ -131,6 +174,8 @@ Full walkthrough → **[docs.sesori.com/quickstart](https://docs.sesori.com/quic
 | **Sesori App (desktop)** | 🛠️ | 🛠️ | 🛠️ | — | — |
 | **Sesori Bridge CLI** | ✅ | ✅ | ✅ native + WSL | — | — |
 | **OpenCode** | ✅ | ✅ | ✅ via WSL | — | — |
+| **Codex** | ✅ | ✅ | ✅ native | — | — |
+| **Cursor** | ✅ | ✅ | ✅ native | — | — |
 
 ✅ available now · 🛠️ coming soon
 
@@ -139,19 +184,21 @@ Full walkthrough → **[docs.sesori.com/quickstart](https://docs.sesori.com/quic
 ## How it works
 
 ```
-┌─────────────┐    encrypted     ┌─────────────┐    local      ┌──────────┐
-│ Sesori App  │ ──── relay ────▶ │   Bridge    │ ── localhost ▶│ OpenCode │
-│ iOS/Android │   (E2EE only)    │ macOS/Linux │               │ on your  │
-│             │                  │   Windows   │               │ machine  │
-└─────────────┘                  └─────────────┘               └──────────┘
+┌─────────────┐    encrypted     ┌─────────────┐    local      ┌──────────────┐
+│ Sesori App  │ ──── relay ────▶ │   Bridge    │ ── localhost ▶│ Your agent   │
+│ iOS/Android │   (E2EE only)    │ macOS/Linux │               │ OpenCode ·   │
+│             │                  │   Windows   │               │ Codex·Cursor │
+└─────────────┘                  └─────────────┘               └──────────────┘
 ```
 
 | Piece | What it does | Where it runs |
 |---|---|---|
 | **Sesori App** | The mobile interface you interact with | iOS, Android (desktop coming) |
-| **Sesori Bridge CLI** | Connects the relay to OpenCode on your machine | macOS, Linux, Windows (native or WSL) |
+| **Sesori Bridge CLI** | Connects the relay to the coding agent on your machine | macOS, Linux, Windows (native or WSL) |
 | **Sesori Auth Server** | Sign-in flows; issues auth tokens | Cloud |
 | **Sesori Relay Server** | Routes encrypted traffic between app and Bridge | Cloud |
+
+The Bridge talks to each agent through its own adapter, which is how new agents get added without changing anything on your side.
 
 Traffic between your phone and your machine is end-to-end encrypted with **X25519** (key exchange) and **XChaCha20-Poly1305** (channel) — the same modern cryptography secure messengers rely on. The relay forwards traffic but can't look inside it.
 
@@ -170,16 +217,16 @@ opencode web
 Note the port it prints (for example, `4096`). Then start the Bridge against that same server with auto-start disabled:
 
 ```bash
-sesori-bridge --no-auto-start --port 4096
+sesori-bridge --opencode-no-auto-start --opencode-port 4096
 ```
 
-Enable **workspaces** in the OpenCode web interface so both surfaces share the same sessions and project state.
+`--opencode-no-auto-start` always needs `--opencode-port` alongside it. Enable **workspaces** in the OpenCode web interface so both surfaces share the same sessions and project state.
 
 ---
 
 ## Open Source
 
-**Sesori is open source.** Every piece that makes OpenCode mobile work is public — the app, the Bridge, the relay, the auth server. Audit the crypto, run it yourself, send PRs.
+**Sesori is open source.** Every piece that makes mobile AI coding work is public — the app, the Bridge, the relay, the auth server. Audit the crypto, run it yourself, send PRs.
 
 | Repo | What it is | Stack | License |
 |---|---|---|---|
@@ -202,5 +249,5 @@ Enable **workspaces** in the OpenCode web interface so both surfaces share the s
 ---
 
 <p align="center">
-  <strong>Sesori</strong> — Run OpenCode from your phone.
+  <strong>Sesori</strong> — Run your AI coding agent from your phone.
 </p>
