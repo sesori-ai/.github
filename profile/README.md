@@ -28,9 +28,9 @@
 </p>
 
 <p align="center">
-  <img src="./assets/phone-projects.webp" alt="Sesori project list on iPhone, showing projects on a connected machine" width="240"/>
-  <img src="./assets/phone-chat.webp" alt="Starting a Sesori session on iPhone: coding tool picker, workspace and branch selectors, and hold-to-talk voice input" width="240"/>
-  <img src="./assets/phone-sessions.webp" alt="Sesori task list on iPhone, showing several sessions running in parallel with pull request status" width="240"/>
+  <img src="./assets/phone-agents.webp" alt="Sesori on iPhone with the coding tool picker open, listing OpenCode, Codex, Claude Code, and Cursor" width="240"/>
+  <img src="./assets/phone-voice.webp" alt="Starting a Sesori session by voice on iPhone, with coding tool, dedicated workspace, and branch selectors above a hold-to-talk control" width="240"/>
+  <img src="./assets/phone-session.webp" alt="A running Sesori session on iPhone, planning a task with model and agent selectors and a stop control" width="240"/>
 </p>
 
 ---
