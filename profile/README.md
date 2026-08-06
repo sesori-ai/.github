@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>The open-source mobile client for your AI coding agent.</strong><br/>
-  Works with <a href="https://opencode.ai/docs/">OpenCode</a>, <a href="https://developers.openai.com/codex/">Codex</a>, and <a href="https://cursor.com/docs/cli/overview">Cursor</a> — with more on the way.
+  Works with <a href="https://opencode.ai/docs/">OpenCode</a>, <a href="https://developers.openai.com/codex/">Codex</a>, and <a href="https://cursor.com/docs/cli/overview">Cursor</a> — <a href="https://claude.com">Claude Code</a> coming soon.
 </p>
 
 <p align="center">
@@ -28,9 +28,9 @@
 </p>
 
 <p align="center">
-  <img src="./assets/phone-projects.png" alt="Sesori project list on iPhone, showing projects on a connected machine" width="240"/>
-  <img src="./assets/phone-chat.png" alt="Starting a Sesori session on iPhone: coding tool picker, workspace and branch selectors, and hold-to-talk voice input" width="240"/>
-  <img src="./assets/phone-sessions.png" alt="Sesori task list on iPhone, showing several sessions running in parallel with pull request status" width="240"/>
+  <img src="./assets/phone-projects.webp" alt="Sesori project list on iPhone, showing projects on a connected machine" width="240"/>
+  <img src="./assets/phone-chat.webp" alt="Starting a Sesori session on iPhone: coding tool picker, workspace and branch selectors, and hold-to-talk voice input" width="240"/>
+  <img src="./assets/phone-sessions.webp" alt="Sesori task list on iPhone, showing several sessions running in parallel with pull request status" width="240"/>
 </p>
 
 ---
@@ -39,11 +39,11 @@
 
 **Sesori is the open-source mobile client for your AI coding agent.** It lets you drive real AI coding sessions from your iPhone or Android while the actual work runs on your laptop or desktop.
 
-Sesori works with **[OpenCode](https://opencode.ai/docs/)**, **[Codex](https://developers.openai.com/codex/)**, and **[Cursor](https://cursor.com/docs/cli/overview)** today, and more agents are on the way. Install whichever you prefer — the Sesori Bridge detects what's on your machine.
+Sesori works with **[OpenCode](https://opencode.ai/docs/)**, **[Codex](https://developers.openai.com/codex/)**, and **[Cursor](https://cursor.com/docs/cli/overview)** today, with **[Claude Code](https://claude.com)** coming soon. Install whichever you prefer — the Sesori Bridge detects what's on your machine.
 
 Your agent is the engine. Sesori is the cockpit on your phone — built in the open, end-to-end encrypted, and local-first.
 
-If you've searched for **OpenCode mobile**, **OpenCode iOS**, **OpenCode Android**, **OpenCode remote control**, **Codex mobile**, **Codex CLI from your phone**, **Cursor mobile**, **Cursor agent remote control**, **mobile AI coding**, or **AI coding from your phone** — that's what Sesori is built for.
+If you've searched for **OpenCode mobile**, **OpenCode iOS**, **OpenCode Android**, **OpenCode remote control**, **Codex mobile**, **Codex CLI from your phone**, **Cursor mobile**, **Cursor agent remote control**, **Claude Code mobile**, **mobile AI coding**, or **AI coding from your phone** — that's what Sesori is built for.
 
 ---
 
@@ -78,6 +78,7 @@ You only need one. Pick whichever you prefer — you can install more than one a
 | [OpenCode](https://opencode.ai/docs/) | `opencode` | 1.14.0 |
 | [Codex](https://developers.openai.com/codex/) | `codex` | 0.139.0 |
 | [Cursor](https://cursor.com/docs/cli/overview) | `cursor-agent` | 2026.07.16 |
+| [Claude Code](https://claude.com) | — | Coming soon |
 
 <details>
 <summary><strong>OpenCode</strong></summary>
@@ -196,6 +197,7 @@ Full walkthrough → **[docs.sesori.com/get-started/quickstart](https://docs.ses
 | **OpenCode** | ✅ | ✅ | ✅ via WSL | — | — |
 | **Codex** | ✅ | ✅ | ✅ native | — | — |
 | **Cursor** | ✅ | ✅ | ✅ native | — | — |
+| **Claude Code** | 🛠️ | 🛠️ | 🛠️ | — | — |
 
 ✅ available now · 🛠️ coming soon
 
