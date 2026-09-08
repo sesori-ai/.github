@@ -59,7 +59,7 @@
 - **Run sessions in parallel.** Dedicated workspaces give each session its own Git worktree and branch, so two agents can touch the same file without colliding.
 - **Talk instead of type.** Hold to record, review the transcript, send. Attach screenshots and mockups too.
 - **Get pinged when it matters.** Push notifications the moment the agent finishes or needs you back, with the session name in the notification.
-- **Install agents from the app.** Settings → Harnesses shows what is installed and what needs a sign-in, and can download a pinned copy of OpenCode, Codex, Copilot, Cursor, Pi, Oh My Pi, or DeepSeek Harness. Managed copies keep themselves updated. Codex can even sign in from your phone.
+- **Install agents from the app.** Settings → Harnesses shows what is installed and what needs a sign-in, and can download a pinned copy of OpenCode, Codex, Copilot, Pi, Oh My Pi, DeepSeek Harness, and Cursor on macOS and Linux. Managed copies keep themselves updated. Codex can even sign in from your phone.
 - **Keep your setup.** Sesori drives the agents, model providers, and permission settings you already have. It adds a remote, not another vendor account.
 
 ---
@@ -94,9 +94,9 @@ Prefer npm or bun? `npx @sesori/bridge` or `bunx @sesori/bridge` installs the sa
 sesori-bridge
 ```
 
-Sign in with the same account in the app and in the Bridge. They pair automatically over the encrypted relay, even on different networks.
+Sign in with the same account in the app and in the Bridge. They pair automatically over the encrypted relay, even on different networks. The Bridge is a foreground process — leave it running, because your phone can only reach your machine while it is up.
 
-Then, in the app, open **Settings → Harnesses**. Agents already on your machine are detected; tap **Install runtime** for any you are missing. Open a project, tap **New session**, pick a **Coding tool**, and go.
+Then, in the app, open **Settings → Harnesses**. Agents already on your machine are detected. For the ones marked ✅ below, tap **Install runtime** and Sesori fetches a copy for you; install the rest yourself. Open a project, tap **New session**, pick a **Coding tool**, and go.
 
 Full walkthrough → **[docs.sesori.com/get-started/quickstart](https://docs.sesori.com/get-started/quickstart)** · Bridge commands and options → **[Bridge guide](https://docs.sesori.com/setup/set-up-the-bridge)**
 
