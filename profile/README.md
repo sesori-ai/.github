@@ -1,275 +1,181 @@
 <p align="center">
-  <img src="./assets/sesori-logo.png" alt="Sesori" width="160" />
+  <img src="./assets/sesori-logo.png" alt="Sesori" width="140" />
 </p>
 
-<h1 align="center">Sesori</h1>
+<h1 align="center">Your coding agents. On your phone.</h1>
 
 <p align="center">
-  <strong>The open-source mobile client for your AI coding agent.</strong><br/>
-  Works with <a href="https://opencode.ai/docs/">OpenCode</a>, <a href="https://developers.openai.com/codex/">Codex</a>, and <a href="https://cursor.com/docs/cli/overview">Cursor</a> — <a href="https://claude.com">Claude Code</a> coming soon.
+  <strong>Run Claude Code, Codex, OpenCode, Cursor, GitHub Copilot, Antigravity, and five more from your iPhone or Android.</strong><br/>
+  The agent keeps working on your machine, with your repo and your logins. You steer it from anywhere.<br/>
+  End-to-end encrypted. Local-first. Built in the open.
 </p>
 
 <p align="center">
-  <a href="https://github.com/sesori-ai"><img src="https://img.shields.io/badge/Open_Source-%E2%9D%A4-brightgreen?logo=github&logoColor=white" alt="Open source"/></a>
-  <a href="https://github.com/sesori-ai/sesori_relay_server/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue" alt="Apache 2.0"/></a>
-  <a href="https://apps.apple.com/app/sesori/id6760642500"><img src="https://img.shields.io/badge/App_Store-iOS-blue?logo=apple" alt="iOS"/></a>
-  <a href="https://play.google.com/store/apps/details?id=com.sesori.app"><img src="https://img.shields.io/badge/Google_Play-Android-green?logo=googleplay" alt="Android"/></a>
+  <a href="https://apps.apple.com/app/sesori/id6760642500"><img src="https://img.shields.io/badge/App_Store-iOS-0D96F6?logo=apple&logoColor=white" alt="Download on the App Store"/></a>
+  <a href="https://play.google.com/store/apps/details?id=com.sesori.app"><img src="https://img.shields.io/badge/Google_Play-Android-34A853?logo=googleplay&logoColor=white" alt="Get it on Google Play"/></a>
+  <a href="https://github.com/sesori-ai/sesori_apps_monorepo/releases"><img src="https://img.shields.io/github/v/release/sesori-ai/sesori_apps_monorepo?label=release&color=blue" alt="Latest release"/></a>
+  <a href="https://github.com/sesori-ai/sesori_apps_monorepo"><img src="https://img.shields.io/github/stars/sesori-ai/sesori_apps_monorepo?style=flat&logo=github&label=stars" alt="GitHub stars"/></a>
   <a href="https://docs.sesori.com"><img src="https://img.shields.io/badge/Docs-docs.sesori.com-purple" alt="Docs"/></a>
   <a href="https://discord.gg/5KBC8dV9uR"><img src="https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white" alt="Discord"/></a>
 </p>
 
 <p align="center">
-  <a href="https://sesori.com">Website</a> ·
-  <a href="https://docs.sesori.com">Docs</a> ·
-  <a href="https://sesori.com/blog">Blog</a> ·
-  <a href="https://github.com/sesori-ai/sesori_apps_monorepo/releases">Changelog</a> ·
-  <a href="https://x.com/sesori_ai">X</a> ·
-  <a href="https://www.linkedin.com/company/sesori/">LinkedIn</a>
+  <a href="https://claude.com/product/claude-code">Claude Code</a> ·
+  <a href="https://developers.openai.com/codex/">Codex</a> ·
+  <a href="https://opencode.ai">OpenCode</a> ·
+  <a href="https://cursor.com/docs/cli/overview">Cursor</a> ·
+  <a href="https://github.com/github/copilot-cli">GitHub Copilot</a> ·
+  <a href="https://antigravity.google/">Antigravity</a> ·
+  <a href="https://docs.x.ai/build/overview">Grok Build</a> ·
+  <a href="https://github.com/deepseek-ai/DeepSeek-Harness">DeepSeek</a> ·
+  <a href="https://hermes-agent.nousresearch.com/">Hermes Agent</a> ·
+  <a href="https://pi.dev">Pi</a> ·
+  <a href="https://omp.sh">Oh My Pi</a>
 </p>
 
 <p align="center">
-  <img src="./assets/phone-agents.webp" alt="Sesori on iPhone with the coding tool picker open, listing OpenCode, Codex, Claude Code, and Cursor" width="240"/>
+  <img src="./assets/phone-agents.webp" alt="Sesori on iPhone with the harness picker open, listing OpenCode, Codex, Claude Code, and Cursor, with model and agent selectors above the composer" width="240"/>
   <img src="./assets/phone-voice.webp" alt="Starting a Sesori session by voice on iPhone, with coding tool, dedicated workspace, and branch selectors above a hold-to-talk control" width="240"/>
   <img src="./assets/phone-session.webp" alt="A running Sesori session on iPhone, planning a task with model and agent selectors and a stop control" width="240"/>
 </p>
 
 ---
 
-## What is Sesori?
+## Why Sesori
 
-**Sesori is the open-source mobile client for your AI coding agent.** It lets you drive real AI coding sessions from your iPhone or Android while the actual work runs on your laptop or desktop.
-
-Sesori works with **[OpenCode](https://opencode.ai/docs/)**, **[Codex](https://developers.openai.com/codex/)**, and **[Cursor](https://cursor.com/docs/cli/overview)** today, with **[Claude Code](https://claude.com)** coming soon. Install whichever you prefer — the Sesori Bridge detects what's on your machine.
-
-Your agent is the engine. Sesori is the cockpit on your phone — built in the open, end-to-end encrypted, and local-first.
-
-If you've searched for **OpenCode mobile**, **OpenCode iOS**, **OpenCode Android**, **OpenCode remote control**, **Codex mobile**, **Codex CLI from your phone**, **Cursor mobile**, **Cursor agent remote control**, **Claude Code mobile**, **mobile AI coding**, or **AI coding from your phone** — that's what Sesori is built for.
+- **11 coding agents, one app.** Claude Code, Codex, OpenCode, Cursor, GitHub Copilot, Google Antigravity, Grok Build, DeepSeek Harness, Hermes Agent, Pi, and Oh My Pi. Pick one per session. Run several side by side on the same machine.
+- **Real sessions, not a chat wrapper.** The agent runs on your laptop, desktop, or a headless VM, with your repo, your tools, and your credentials. Sesori streams the session to your phone and hands you the controls.
+- **Nothing to expose.** No VPN, no tunnel, no open ports. Your phone and your machine do an X25519 key exchange and encrypt every message with XChaCha20-Poly1305. The relay only forwards ciphertext.
+- **Three commands to get going.** Install the app, install the Bridge, run it. No agent installed yet? Sesori can download one for you.
 
 ---
 
-## What you can do with Sesori
+## What you can do from your phone
 
-- **Run your coding agent from your phone** — full session control over a real agent on your machine.
-- **Pick the agent per session** — OpenCode, Codex, or Cursor, chosen from the **Coding tool** selector when you start a task.
-- **See setup at a glance** — **Settings → Harnesses** shows whether each agent is ready, needs authentication, or is missing, and lets you enable, restart, or refresh it.
-- **Review file changes** — a **File Changes** view per session with a diff for every file, then commit to GitHub.
-- **Run sessions in parallel** — each can take its own **dedicated workspace**, so two sessions can touch the same file without colliding.
-- **Code with your voice** — hold to talk, and set the composer to lead with voice or text.
-- **Send images** — attach or paste screenshots and mockups into a prompt (OpenCode and Codex).
-- **Stay in control** — approve or reject permission requests, queue messages while the agent is busy, and stop a running task.
-- **Get push notifications** the moment your agent finishes or needs you back.
-- **Pick your model and agent** — whatever your assistant exposes (Claude, GPT, Gemini, KimiCode, OpenCode Go, …).
-- **Local-first & end-to-end encrypted** — your code never leaves your machine. The relay sees only opaque binary.
-
-Available now on **iOS** and **Android**. Desktop apps (macOS, Linux, Windows) coming soon.
+- **Start and steer sessions** on any project on your machine. Browse folders, add projects, and choose the agent, then the model, effort, and mode it exposes.
+- **Answer the agent.** Approve or reject permission requests, answer its questions, queue follow-ups while it works, and stop a task the moment it goes sideways.
+- **Follow sub-agents.** Claude Code, Codex, OpenCode, and DeepSeek sub-agents show up as child sessions with live transcripts, so background work never happens out of sight.
+- **Review the diff.** A File Changes view per session, with a diff for every file plus the branch and pull request status.
+- **Run sessions in parallel.** Dedicated workspaces give each session its own Git worktree and branch, so two agents can touch the same file without colliding.
+- **Talk instead of type.** Hold to record, review the transcript, send. Attach screenshots and mockups too.
+- **Get pinged when it matters.** Push notifications the moment the agent finishes or needs you back, with the session name in the notification.
+- **Install agents from the app.** Settings → Harnesses shows what is installed and what needs a sign-in, and can download a pinned copy of OpenCode, Codex, Copilot, Cursor, Pi, Oh My Pi, or DeepSeek Harness. Managed copies keep themselves updated. Codex can even sign in from your phone.
+- **Keep your setup.** Sesori drives the agents, model providers, and permission settings you already have. It adds a remote, not another vendor account.
 
 ---
 
-## Quickstart
+## Get started in 3 steps
 
-Connect your phone to your coding agent in a few minutes.
+### 1. Get the app
 
-### 1. Install an AI coding agent
+📱 [App Store](https://apps.apple.com/app/sesori/id6760642500) · 📱 [Google Play](https://play.google.com/store/apps/details?id=com.sesori.app)
 
-You only need one. Pick whichever you prefer — you can install more than one and the Bridge will detect them all, then choose per session in the app.
+### 2. Install the Bridge where your code lives
 
-| Agent | Command | Minimum version |
-|---|---|---|
-| [OpenCode](https://opencode.ai/docs/) | `opencode` | 1.14.0 |
-| [Codex](https://developers.openai.com/codex/) | `codex` | 0.139.0 |
-| [Cursor](https://cursor.com/docs/cli/overview) | `cursor-agent` | 2026.07.16 |
-| [Claude Code](https://claude.com) | — | Coming soon |
+The Bridge is a small command-line tool that connects the app to the agents on your machine. Laptop, desktop, or a [headless VM](https://github.com/sesori-ai/sesori_apps_monorepo/blob/main/docs/SETUP_HEADLESS_VM.md) all work.
 
-<details>
-<summary><strong>OpenCode</strong></summary>
-
-```bash
-curl -fsSL https://opencode.ai/install | bash
-opencode auth login
-```
-
-> **On Windows, use WSL.** Install OpenCode inside your WSL terminal, then run the rest of the setup — including `sesori-bridge` — from that same WSL terminal.
-
-OpenCode supports GPT subscriptions, Anthropic API, Google Gemini, KimiCode, OpenCode Go, and more.
-
-</details>
-
-<details>
-<summary><strong>Codex</strong></summary>
-
-```bash
-curl -fsSL https://chatgpt.com/codex/install.sh | sh
-codex login
-```
-
-On Windows, Codex installs natively — WSL is not required:
-
-```powershell
-powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"
-```
-
-</details>
-
-<details>
-<summary><strong>Cursor</strong></summary>
-
-```bash
-curl https://cursor.com/install -fsS | bash
-cursor-agent login
-```
-
-On Windows:
-
-```powershell
-irm 'https://cursor.com/install?win32=true' | iex
-```
-
-> **Cursor must be signed in** before the Bridge can use it. Check with `cursor-agent status`.
-
-</details>
-
-### 2. Install the Sesori Bridge
-
-The **Sesori Bridge** is a small command-line tool that connects the Sesori app to your agent.
-
-**macOS / Linux** (and Windows WSL — recommended path):
+**macOS / Linux**
 
 ```bash
 curl -fsSL https://sesori.com/install.sh | bash
 ```
 
-**Windows (native PowerShell)** — use this if you're running your agent natively on Windows rather than in WSL:
+**Windows (PowerShell)**
 
 ```powershell
 irm https://sesori.com/install.ps1 | iex
 ```
 
-> **Windows PATH.** The installer adds `sesori-bridge` to your PATH and refreshes the current PowerShell session. If `sesori-bridge` returns "command not found", open a new PowerShell window — or refresh PATH in this one:
->
-> ```powershell
-> $env:Path = [Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [Environment]::GetEnvironmentVariable("Path","User")
-> ```
+Prefer npm or bun? `npx @sesori/bridge` or `bunx @sesori/bridge` installs the same thing.
 
-### 3. Run the Bridge
+### 3. Run it and sign in
 
 ```bash
 sesori-bridge
 ```
 
-Pick a sign-in method when prompted — **GitHub** is recommended. The Bridge detects your installed agents, starts (or attaches to) the one you're using, and registers with the Sesori relay. Keep the terminal window open — your phone can only connect while the Bridge is running.
+Sign in with the same account in the app and in the Bridge. They pair automatically over the encrypted relay, even on different networks.
 
-To see which agents the Bridge found:
+Then, in the app, open **Settings → Harnesses**. Agents already on your machine are detected; tap **Install runtime** for any you are missing. Open a project, tap **New session**, pick a **Coding tool**, and go.
 
-```bash
-sesori-bridge config plugins
-```
+Full walkthrough → **[docs.sesori.com/get-started/quickstart](https://docs.sesori.com/get-started/quickstart)** · Bridge commands and options → **[Bridge guide](https://docs.sesori.com/setup/set-up-the-bridge)**
 
-```
-Codex (codex): enabled
-Cursor (cursor): enabled
-OpenCode (opencode): enabled
-```
+---
 
-Every command and flag → **[Bridge CLI reference](https://docs.sesori.com/setup/bridge-cli)**
+## Supported coding agents
 
-### 4. Install the Sesori app & sign in
+| Agent | Install from the app | Notes |
+|---|:-:|---|
+| [Claude Code](https://claude.com/product/claude-code) (Anthropic) | – | Standard and plan modes, with permission prompts on your phone |
+| [Codex](https://developers.openai.com/codex/) (OpenAI) | ✅ | Can sign in from your phone |
+| [OpenCode](https://opencode.ai) | ✅ | Bridge-managed server; can also attach to your running `opencode web` |
+| [Cursor](https://cursor.com/docs/cli/overview) | ✅ macOS, Linux | Windows: use your own install |
+| [GitHub Copilot CLI](https://github.com/github/copilot-cli) (GitHub) | ✅ | Needs an eligible Copilot account |
+| [Antigravity](https://antigravity.google/) (Google) | – | Google's coding agent, signed in with your Google account |
+| [Grok Build](https://docs.x.ai/build/overview) (xAI) | – | Text prompts only for now, no image attachments |
+| [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) (DeepSeek) | ✅ | Through Sesori's open-source [ACP adapter](https://github.com/sesori-ai/sesori-deepseek-acp) |
+| [Hermes Agent](https://hermes-agent.nousresearch.com/) (Nous Research) | – | |
+| [Pi](https://pi.dev) | ✅ | |
+| [Oh My Pi](https://omp.sh) | ✅ | |
 
-- 📱 **iOS** → [App Store](https://apps.apple.com/app/sesori/id6760642500)
-- 📱 **Android** → [Google Play](https://play.google.com/store/apps/details?id=com.sesori.app)
+✅ Sesori downloads a pinned, checksummed copy from **Settings → Harnesses**, keeps it updated, and never touches a system-wide install. Everything else uses the agent already on your machine.
 
-Sign in with the same account and method you used for the Bridge. You're connected.
-
-### 5. Start a task
-
-Tap a project, then **New task**. If you have more than one agent installed, pick which handles this session from the **Coding tool** selector — and leave **Dedicated workspace** on to give it its own copy of your files.
-
-Full walkthrough → **[docs.sesori.com/get-started/quickstart](https://docs.sesori.com/get-started/quickstart)**
+Each agent exposes its own models, sub-agents, slash commands, modes, and permission prompts, and Sesori shows whatever the agent supports. Setup, platform, and safety notes per agent → [Choose an AI coding assistant](https://docs.sesori.com/setup/choose-a-harness). Feature-by-feature detail → [capability matrix](https://github.com/sesori-ai/sesori_apps_monorepo/blob/main/docs/HARNESS_CAPABILITIES.md).
 
 ---
 
 ## Platform support
 
-| Component | macOS | Linux | Windows | iOS | Android |
+| | macOS | Linux | Windows | iOS | Android |
 |---|:-:|:-:|:-:|:-:|:-:|
-| **Sesori App (mobile)** | — | — | — | ✅ | ✅ |
-| **Sesori App (desktop)** | 🛠️ | 🛠️ | 🛠️ | — | — |
-| **Sesori Bridge CLI** | ✅ | ✅ | ✅ native + WSL | — | — |
-| **OpenCode** | ✅ | ✅ | ✅ via WSL | — | — |
-| **Codex** | ✅ | ✅ | ✅ native | — | — |
-| **Cursor** | ✅ | ✅ | ✅ native | — | — |
-| **Claude Code** | 🛠️ | 🛠️ | 🛠️ | — | — |
+| **Sesori app** | 🛠️ | 🛠️ | — | ✅ | ✅ |
+| **Sesori Bridge** | ✅ | ✅ | ✅ | — | — |
 
-✅ available now · 🛠️ coming soon
+✅ available now · 🛠️ in development ([get notified](https://sesori.com/early-access))
 
 ---
 
 ## How it works
 
 ```
-┌─────────────┐    encrypted     ┌─────────────┐    local      ┌──────────────┐
-│ Sesori App  │ ──── relay ────▶ │   Bridge    │ ── localhost ▶│ Your agent   │
-│ iOS/Android │   (E2EE only)    │ macOS/Linux │               │ OpenCode ·   │
-│             │                  │   Windows   │               │ Codex·Cursor │
-└─────────────┘                  └─────────────┘               └──────────────┘
+┌───────────────┐     encrypted relay      ┌───────────────┐      localhost      ┌────────────────────┐
+│  Sesori app   │ ◀──────────────────────▶ │ Sesori Bridge │ ◀─────────────────▶ │  Your coding agent │
+│ iOS · Android │    (ciphertext only)     │ mac·Linux·Win │                     │ Claude Code, Codex,│
+└───────────────┘                          └───────────────┘                     │ OpenCode, Cursor … │
+                                                                                 └────────────────────┘
 ```
 
-| Piece | What it does | Where it runs |
-|---|---|---|
-| **Sesori App** | The mobile interface you interact with | iOS, Android (desktop coming) |
-| **Sesori Bridge CLI** | Connects the relay to the coding agent on your machine | macOS, Linux, Windows (native or WSL) |
-| **Sesori Auth Server** | Sign-in flows; issues auth tokens | Cloud |
-| **Sesori Relay Server** | Routes encrypted traffic between app and Bridge | Cloud |
+The Bridge runs next to your agent and talks to it locally. Your phone and the Bridge perform an ephemeral X25519 key exchange, then encrypt every message with XChaCha20-Poly1305, the same cryptography secure messengers use. The relay routes opaque frames between them and cannot read them. Your repository and the agent itself stay on your machine.
 
-The Bridge talks to each agent through its own adapter, which is how new agents get added without changing anything on your side.
-
-Traffic between your phone and your machine is end-to-end encrypted with **X25519** (key exchange) and **XChaCha20-Poly1305** (channel) — the same modern cryptography secure messengers rely on. The relay forwards traffic but can't look inside it.
-
-More detail → [How it works](https://docs.sesori.com/get-started/how-it-works).
+More detail → [How it works](https://docs.sesori.com/get-started/how-it-works) · [Security and privacy](https://docs.sesori.com/get-started/security-and-privacy)
 
 ---
 
-## Use Sesori alongside OpenCode web
+## Built in the open
 
-By default, `sesori-bridge` starts and manages its own OpenCode server. If you also want the **OpenCode web interface** open at the same time, start it first:
-
-```bash
-opencode web
-```
-
-Note the port it prints (for example, `4096`). Then start the Bridge against that same server with auto-start disabled:
-
-```bash
-sesori-bridge --opencode-no-auto-start --opencode-port 4096
-```
-
-`--opencode-no-auto-start` always needs `--opencode-port` alongside it. Enable **workspaces** in the OpenCode web interface so both surfaces share the same sessions and project state.
-
----
-
-## Open Source
-
-**Sesori is open source.** Every piece that makes mobile AI coding work is public — the app, the Bridge, the relay, the auth server. Audit the crypto, run it yourself, send PRs.
+Every piece that makes this work is public: the app, the Bridge, the relay, the auth server, and the DeepSeek adapter. Audit the crypto, read the plugin code, send PRs.
 
 | Repo | What it is | Stack | License |
 |---|---|---|---|
-| [**sesori_apps_monorepo**](https://github.com/sesori-ai/sesori_apps_monorepo) | The Sesori iOS/Android app and the Bridge CLI | Dart / Flutter | [FSL-1.1-ALv2](https://github.com/sesori-ai/sesori_apps_monorepo/blob/main/LICENSE) (converts to Apache-2.0 after 2 years) |
+| [**sesori_apps_monorepo**](https://github.com/sesori-ai/sesori_apps_monorepo) | The iOS/Android app, the Bridge CLI, and one plugin package per agent | Dart / Flutter | [FSL-1.1-ALv2](https://github.com/sesori-ai/sesori_apps_monorepo/blob/main/LICENSE) (becomes Apache-2.0 after two years) |
 | [**sesori_relay_server**](https://github.com/sesori-ai/sesori_relay_server) | End-to-end encrypted relay between phone and Bridge | Go | [Apache-2.0](https://github.com/sesori-ai/sesori_relay_server/blob/master/LICENSE) |
 | [**sesori_auth_server**](https://github.com/sesori-ai/sesori_auth_server) | Sign-in (GitHub, Google, Apple, email) and token issuance | TypeScript | [Apache-2.0](https://github.com/sesori-ai/sesori_auth_server/blob/master/LICENSE) |
+| [**sesori-deepseek-acp**](https://github.com/sesori-ai/sesori-deepseek-acp) | ACP adapter that lets Sesori drive DeepSeek Harness | TypeScript | [MIT](https://github.com/sesori-ai/sesori-deepseek-acp/blob/main/LICENSE) |
+
+Want to add an agent? Each one is a self-contained plugin package. Start with [CONTRIBUTING.md](https://github.com/sesori-ai/sesori_apps_monorepo/blob/main/docs/CONTRIBUTING.md).
 
 ---
 
-## Community & Support
+## Community & support
 
-- 🌐 [sesori.com](https://sesori.com)
-- 📖 [docs.sesori.com](https://docs.sesori.com) · [Quickstart](https://docs.sesori.com/get-started/quickstart) · [Bridge CLI reference](https://docs.sesori.com/setup/bridge-cli) · [FAQ](https://docs.sesori.com/user-guide/faq)
+- 🌐 [sesori.com](https://sesori.com) · 📝 [Blog](https://sesori.com/blog)
+- 📖 [Docs](https://docs.sesori.com) · [Quickstart](https://docs.sesori.com/get-started/quickstart) · [FAQ](https://docs.sesori.com/user-guide/faq) · [Troubleshooting](https://docs.sesori.com/help/troubleshooting)
 - 💬 [Discord](https://discord.gg/5KBC8dV9uR)
-- 🐦 [X / Twitter](https://x.com/sesori_ai)
-- 💼 [LinkedIn](https://www.linkedin.com/company/sesori/)
-- 📝 [Blog](https://sesori.com/blog)
+- 🐦 [X / Twitter](https://x.com/sesori_ai) · 💼 [LinkedIn](https://www.linkedin.com/company/sesori/)
 - 📦 [Releases & changelog](https://github.com/sesori-ai/sesori_apps_monorepo/releases)
 
 ---
 
 <p align="center">
-  <strong>Sesori</strong> — Run your AI coding agent from your phone.
+  <strong>Leave your laptop. Take the session.</strong>
 </p>
